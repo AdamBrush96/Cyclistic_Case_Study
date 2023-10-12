@@ -29,9 +29,9 @@ The data sets contain information about every ride taken in each month of 2022, 
 
 Please note that since this is a private data set made publicly available, some information has been removed, specifically any personally identifiable data about the riders. This means we won’t be able to see if any riders used day passes on multiple occasions or gather any information on the demographics of members versus casual riders.
 
-## Documentation of any cleaning or manipulation of data: 
+## Documentation of Any Cleaning or Manipulation of Data: 
 
-For all data cleaning and manipulation I will be using Google’s BigQuery, a serverless data warehouse that supports querying with SQL. Each step below was completed with a SQL query. Please see [Combining_and_Cleaning.sql](https://github.com/AdamBrush96/Cyclistic_Case_Study/blob/d9e1aaa2054761ec09bca538f1f29959d32edfbd/Combining_and_Cleaning.sql) for the exact SQL code used. To combine, clean, and manipulate the data and make it useable I followed these steps:
+For all data cleaning and manipulation I will be using Google’s BigQuery, a serverless data warehouse that supports querying with SQL. Each step below was completed with a SQL query. Please see [Combining and Cleaning](https://github.com/AdamBrush96/Cyclistic_Case_Study/blob/d9e1aaa2054761ec09bca538f1f29959d32edfbd/Combining_and_Cleaning.sql) file for the exact SQL code used. To combine, clean, and manipulate the data and make it useable I followed these steps:
 * The data was separated into monthly data sets so I first had to combine all 12 sets into one large data set.
 * I checked the data set for duplicates by counting the distinct values in the ride_id column and making sure the result matched the total rows in the data set. There were no duplicate rides. 
 * I checked to ensure all the ride IDs were 16 characters to see if there were any errors in the data set. There were none.
@@ -40,14 +40,15 @@ For all data cleaning and manipulation I will be using Google’s BigQuery, a se
 * I used my new table to add a column for ride length which would show the duration of each ride in minutes.
 * Finally, I added two more columns to track the day of the week and the month the ride was taken in. In this step I also dropped any rides that were under a minute or over 600 minutes (10 hours) as they were likely to be mistakes either by the system or the rider and may skew the data.
 
-## A summary of my analysis:
+## A Summary of My Analysis:
 
-Now that I have a clean table with more relevant columns, I can begin to analyze the data and see how casual riders and members use the service differently. I hypothesized that members were likely using the bikes to commute while casual members were using them for recreation. To test this theory, I performed the following analysis with the queries listed at the end of this document in the Analysis section:
+Now that I have a clean table with more relevant columns, I can begin to analyze the data and see how casual riders and members use the service differently. I hypothesized that members were likely using the bikes to commute while casual members were using them for recreation. To test this theory, I performed the following analysis (Please see [Analysis](https://github.com/AdamBrush96/Cyclistic_Case_Study/blob/46add739abf9f510ec84da41702d9be5d62b018e/Analysis.sql) for the SQL queries used):
 * I found the average number of rides casual riders and members were taking by time of day, day of the week, and month.
 * I found the average duration of each group's rides by time of day, day of week, and month.
 * I found the total number of rides started and ended at each station by each group.
 
-## Supporting visualizations and key findings: 
+
+## Supporting Visualizations and Key Findings: 
 
 The above analysis led to some insights that would be much better explained by visuals. I moved the data created by those queries to Tableau and created the following visualizations to more clearly identify any trends present. First, we see the number of trips each group took by time of day, day of the week, and month:
 ![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/999c9145-95e7-4b4f-b78e-14dd7d26986d)
@@ -64,7 +65,7 @@ Finally, we can look at the start and end locations most commonly used by each g
 ![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/c336aab4-0c33-4219-9606-314cb7ddd8a2)
 We can tell from this map that the casual riders tend to start and end near recreational areas like museums, aquariums, parks, and beaches while members have a much more spread out usage, often going deep into residential areas. This shows that they are likely using the bikes to commute to and from their homes. Members also often go to and from the University of Illinois at Chicago, suggesting that students and faculty are using the bikes to get to and from school each day. These observations once again confirm the hypothesis that members are using the bikes to commute while casual riders are using them for recreation mostly.
 
-## My top three recommendations based on my analysis:
+## My Top Three Recommendations Based on My Analysis:
 
 From my analysis there are a few conclusions we can draw. Members are using the bikes for commuting while the casual riders are using them for recreation, the casual riders are much more likely to use the bikes in the warmer months, and the casual riders typically use the bikes near high tourist traffic destinations.
 
