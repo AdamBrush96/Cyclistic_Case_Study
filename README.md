@@ -10,12 +10,12 @@ I have been tasked with answering the following question:
 
 And with the following deliverables:
 
-	1. A clear statement of the business task
-	2. A description of all data sources used
-	3. Documentation of any cleaning or manipulation of data
-	4. A summary of your analysis
-	5. Supporting visualizations and key findings
-	6. Your top three recommendations based on your analysis
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of your analysis
+5. Supporting visualizations and key findings
+6. Your top three recommendations based on your analysis
 
 ## A Clear Statement of the Business Task:
 
@@ -67,7 +67,7 @@ From my analysis there are a few conclusions we can draw. Members are using the 
 
 Based on these observations I have the following recommendations:
 
-	1. Promote the use of the bikes for more than just recreation. Create an ad campaign designed to show the costs of commuting via other methods versus the costs of an annual membership. You can also mention the health benefits of biking to and from work, the grocery store, school, etc.
-	2. Some riders may not be interested in using the bikes in the winter regardless of the commuting benefits so a “Warm Weather Pass” would be a great option to encourage the casual riders to use the bikes more. This could be a 6 month membership from April to September for a cheaper price than the annual membership.
-	3. The advertisements should be posted at the highest traffic areas for casual riders. This means museums, parks, beaches, and any other tourist areas. This gives you the best chance of your advertising being seen by casual users. Additionally, posting these in the spring and summer gives you an even better chance of being seen by casual members.
+1. Promote the use of the bikes for more than just recreation. Create an ad campaign designed to show the costs of commuting via other methods versus the costs of an annual membership. You can also mention the health benefits of biking to and from work, the grocery store, school, etc.
+2. Some riders may not be interested in using the bikes in the winter regardless of the commuting benefits so a “Warm Weather Pass” would be a great option to encourage the casual riders to use the bikes more. This could be a 6 month membership from April to September for a cheaper price than the annual membership.
+3. The advertisements should be posted at the highest traffic areas for casual riders. This means museums, parks, beaches, and any other tourist areas. This gives you the best chance of your advertising being seen by casual users. Additionally, posting these in the spring and summer gives you an even better chance of being seen by casual members.
 
