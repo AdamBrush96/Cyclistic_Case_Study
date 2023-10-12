@@ -50,15 +50,16 @@ Now that I have a clean table with more relevant columns, I can begin to analyze
 ## Supporting visualizations and key findings: 
 
 The above analysis led to some insights that would be much better explained by visuals. I moved the data created by those queries to Tableau and created the following visualizations to more clearly identify any trends present. First, we see the number of trips each group took by time of day, day of the week, and month:
-IMAGE HERE
+![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/999c9145-95e7-4b4f-b78e-14dd7d26986d)
 From this data we can see that members use the bikes more often than casual users and have spikes in use from 6 AM to 9 AM and 4 PM to 7 PM. Members also use the bikes Monday through Friday and dip in use on the weekends. Casual riders tend to use them more as the day goes on until about 5 PM and their usage spikes on the weekends. Both groups see a notable downturn in use in the colder months. These observations point towards members using the bikes to commute while casual riders are using the bikes for recreation.
 
 Next, we can look at how long each groups rides typically last:
-IMAGE HERE
+![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/48bef11c-2d3a-42e9-a65f-c5fc891074ad)
 As we can see from this data, although the members use the bikes more often, their rides are consistently shorter than those the casual riders take. They also remain about the same length in the winter while the casual riders' trips drop off in length in the winter months and peak in the spring and summer. This combined with the casual riders longer ride durations on the weekend suggests that casual riders are using the bikes for recreation in the nice weather and weekends.
 
 Finally, we can look at the start and end locations most commonly used by each group:
-IMAGE HERE
+![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/9c3d3dea-08d1-421c-93ce-b40eefbc6465)
+![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/c336aab4-0c33-4219-9606-314cb7ddd8a2)
 We can tell from this map that the casual riders tend to start and end near recreational areas like museums, aquariums, parks, and beaches while members have a much more spread out usage, often going deep into residential areas. This shows that they are likely using the bikes to commute to and from their homes. Members also often go to and from the University of Illinois at Chicago, suggesting that students and faculty are using the bikes to get to and from school each day. These observations once again confirm the hypothesis that members are using the bikes to commute while casual riders are using them for recreation mostly.
 
 ## My top three recommendations based on my analysis:
