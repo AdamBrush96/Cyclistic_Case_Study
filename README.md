@@ -54,7 +54,9 @@ The above analysis led to some insights that would be much better explained by v
 From this data we can see that members use the bikes more often than casual users and have spikes in use from 6 AM to 9 AM and 4 PM to 7 PM. Members also use the bikes Monday through Friday and dip in use on the weekends. Casual riders tend to use them more as the day goes on until about 5 PM and their usage spikes on the weekends. Both groups see a notable downturn in use in the colder months. These observations point towards members using the bikes to commute while casual riders are using the bikes for recreation.
 
 Next, we can look at how long each groups rides typically last:
+
 ![image](https://github.com/AdamBrush96/Cyclistic_Case_Study/assets/147767594/48bef11c-2d3a-42e9-a65f-c5fc891074ad)
+
 As we can see from this data, although the members use the bikes more often, their rides are consistently shorter than those the casual riders take. They also remain about the same length in the winter while the casual riders' trips drop off in length in the winter months and peak in the spring and summer. This combined with the casual riders longer ride durations on the weekend suggests that casual riders are using the bikes for recreation in the nice weather and weekends.
 
 Finally, we can look at the start and end locations most commonly used by each group:
