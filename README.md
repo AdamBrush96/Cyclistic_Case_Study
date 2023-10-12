@@ -11,11 +11,11 @@ I have been tasked with answering the following question:
 And with the following deliverables:
 
 	1. A clear statement of the business task
-  2. A description of all data sources used
-  3. Documentation of any cleaning or manipulation of data
-  4. A summary of your analysis
-  5. Supporting visualizations and key findings
-  6. Your top three recommendations based on your analysis
+	2. A description of all data sources used
+	3. Documentation of any cleaning or manipulation of data
+	4. A summary of your analysis
+	5. Supporting visualizations and key findings
+	6. Your top three recommendations based on your analysis
 
 ## A Clear Statement of the Business Task:
 
@@ -40,14 +40,34 @@ For all data cleaning and manipulation I will be using Google’s BigQuery, a se
 * I used my new table to add a column for ride length which would show the duration of each ride in minutes.
 * Finally, I added two more columns to track the day of the week and the month the ride was taken in. In this step I also dropped any rides that were under a minute or over 600 minutes (10 hours) as they were likely to be mistakes either by the system or the rider and may skew the data.
 
-
-
-
-
-
 ## A summary of your analysis:
 
 Now that I have a clean table with more relevant columns, I can begin to analyze the data and see how casual riders and members use the service differently. I hypothesized that members were likely using the bikes to commute while casual members were using them for recreation. To test this theory, I performed the following analysis with the queries listed at the end of this document in the Analysis section:
 * I found the average number of rides casual riders and members were taking by time of day, day of the week, and month.
 * I found the average duration of each group's rides by time of day, day of week, and month.
 * I found the total number of rides started and ended at each station by each group.
+
+## Supporting visualizations and key findings: 
+
+The above analysis led to some insights that would be much better explained by visuals. I moved the data created by those queries to Tableau and created the following visualizations to more clearly identify any trends present. First, we see the number of trips each group took by time of day, day of the week, and month:
+IMAGE HERE
+From this data we can see that members use the bikes more often than casual users and have spikes in use from 6 AM to 9 AM and 4 PM to 7 PM. Members also use the bikes Monday through Friday and dip in use on the weekends. Casual riders tend to use them more as the day goes on until about 5 PM and their usage spikes on the weekends. Both groups see a notable downturn in use in the colder months. These observations point towards members using the bikes to commute while casual riders are using the bikes for recreation.
+
+Next, we can look at how long each groups rides typically last:
+IMAGE HERE
+As we can see from this data, although the members use the bikes more often, their rides are consistently shorter than those the casual riders take. They also remain about the same length in the winter while the casual riders' trips drop off in length in the winter months and peak in the spring and summer. This combined with the casual riders longer ride durations on the weekend suggests that casual riders are using the bikes for recreation in the nice weather and weekends.
+
+Finally, we can look at the start and end locations most commonly used by each group:
+IMAGE HERE
+We can tell from this map that the casual riders tend to start and end near recreational areas like museums, aquariums, parks, and beaches while members have a much more spread out usage, often going deep into residential areas. This shows that they are likely using the bikes to commute to and from their homes. Members also often go to and from the University of Illinois at Chicago, suggesting that students and faculty are using the bikes to get to and from school each day. These observations once again confirm the hypothesis that members are using the bikes to commute while casual riders are using them for recreation mostly.
+
+Your top three recommendations based on your analysis:
+
+From my analysis there are a few conclusions we can draw. Members are using the bikes for commuting while the casual riders are using them for recreation, the casual riders are much more likely to use the bikes in the warmer months, and the casual riders typically use the bikes near high tourist traffic destinations.
+
+Based on these observations I have the following recommendations:
+
+	1. Promote the use of the bikes for more than just recreation. Create an ad campaign designed to show the costs of commuting via other methods versus the costs of an annual membership. You can also mention the health benefits of biking to and from work, the grocery store, school, etc.
+	2. Some riders may not be interested in using the bikes in the winter regardless of the commuting benefits so a “Warm Weather Pass” would be a great option to encourage the casual riders to use the bikes more. This could be a 6 month membership from April to September for a cheaper price than the annual membership.
+	3. The advertisements should be posted at the highest traffic areas for casual riders. This means museums, parks, beaches, and any other tourist areas. This gives you the best chance of your advertising being seen by casual users. Additionally, posting these in the spring and summer gives you an even better chance of being seen by casual members.
+
