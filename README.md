@@ -31,7 +31,7 @@ Please note that since this is a private data set made publicly available, some 
 
 ## Documentation of any cleaning or manipulation of data: 
 
-For all data cleaning and manipulation I will be using Google’s BigQuery, a serverless data warehouse that supports querying with SQL. Each step below was completed with a SQL query. Please see the end of this document for the exact SQL code used. To combine, clean, and manipulate the data and make it useable I followed these steps:
+For all data cleaning and manipulation I will be using Google’s BigQuery, a serverless data warehouse that supports querying with SQL. Each step below was completed with a SQL query. Please see Combining_and_Cleaning.sql for the exact SQL code used. To combine, clean, and manipulate the data and make it useable I followed these steps:
 * The data was separated into monthly data sets so I first had to combine all 12 sets into one large data set.
 * I checked the data set for duplicates by counting the distinct values in the ride_id column and making sure the result matched the total rows in the data set. There were no duplicate rides. 
 * I checked to ensure all the ride IDs were 16 characters to see if there were any errors in the data set. There were none.
