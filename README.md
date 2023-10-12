@@ -13,9 +13,9 @@ And with the following deliverables:
 1. A clear statement of the business task
 2. A description of all data sources used
 3. Documentation of any cleaning or manipulation of data
-4. A summary of your analysis
+4. A summary of my analysis
 5. Supporting visualizations and key findings
-6. Your top three recommendations based on your analysis
+6. My top three recommendations based on my analysis
 
 ## A Clear Statement of the Business Task:
 
@@ -40,7 +40,7 @@ For all data cleaning and manipulation I will be using Google’s BigQuery, a se
 * I used my new table to add a column for ride length which would show the duration of each ride in minutes.
 * Finally, I added two more columns to track the day of the week and the month the ride was taken in. In this step I also dropped any rides that were under a minute or over 600 minutes (10 hours) as they were likely to be mistakes either by the system or the rider and may skew the data.
 
-## A summary of your analysis:
+## A summary of my analysis:
 
 Now that I have a clean table with more relevant columns, I can begin to analyze the data and see how casual riders and members use the service differently. I hypothesized that members were likely using the bikes to commute while casual members were using them for recreation. To test this theory, I performed the following analysis with the queries listed at the end of this document in the Analysis section:
 * I found the average number of rides casual riders and members were taking by time of day, day of the week, and month.
@@ -61,7 +61,7 @@ Finally, we can look at the start and end locations most commonly used by each g
 IMAGE HERE
 We can tell from this map that the casual riders tend to start and end near recreational areas like museums, aquariums, parks, and beaches while members have a much more spread out usage, often going deep into residential areas. This shows that they are likely using the bikes to commute to and from their homes. Members also often go to and from the University of Illinois at Chicago, suggesting that students and faculty are using the bikes to get to and from school each day. These observations once again confirm the hypothesis that members are using the bikes to commute while casual riders are using them for recreation mostly.
 
-Your top three recommendations based on your analysis:
+## My top three recommendations based on my analysis:
 
 From my analysis there are a few conclusions we can draw. Members are using the bikes for commuting while the casual riders are using them for recreation, the casual riders are much more likely to use the bikes in the warmer months, and the casual riders typically use the bikes near high tourist traffic destinations.
 
