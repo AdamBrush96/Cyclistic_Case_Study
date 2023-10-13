@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-In this case study I will be acting as a junior data analyst for the fictional company Cyclistic, a bike-share company in Chicago with more than 5,800 bikes and 600 docking stations across the city. The company offers single-ride or full-day passes for casual riders and annual memberships for members. The director of marketing believes that the company’s future success depends on maximizing the number of annual memberships as they are the most profitable. She believes there’s a greater chance of converting casual riders to members than attracting new users to become members. Therefore, my team is looking to understand how casual riders and members use the bikes differently to help us design a marketing strategy to convert casual riders into members.
+In this case study I will be acting as a data analyst for the fictional company Cyclistic, a bike-share company in Chicago with more than 5,800 bikes and 600 docking stations across the city. The company offers single-ride or full-day passes for casual riders and annual memberships for members. The director of marketing believes that the company’s future success depends on maximizing the number of annual memberships as they are the most profitable. She believes there’s a greater chance of converting casual riders to members than attracting new users to become members. Therefore, my team is looking to understand how casual riders and members use the bikes differently to help us design a marketing strategy to convert casual riders into members.
 
 I have been tasked with answering the following question:
 
